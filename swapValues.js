@@ -1,6 +1,6 @@
-var a=10, b=20, x;
-x=a;
-a=b;
-b=x;
-console.log("a=", a);
-console.log("b=", b);
+
+let a = 10 ;
+let b = 20 ;
+[a,b] = [b,a];
+ 
+console.log("New value of a:" + a + "\n" + "New value of b:" + b );
